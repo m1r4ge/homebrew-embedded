@@ -16,6 +16,6 @@ class ArmElfBinutils < Formula
 		system 'make'
 		system 'make', 'install'
 
-		rm_f "#{lib}/x86_64/libiberty.*"
+		rm_f "#{lib}/x86_64/libiberty.a"
 	end
 end
